@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td, img, div, dl, dt, dd, input {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 12px;
+}
+img {
+	border:none;
+}
+li {
+	list-style: none; /*清除列表前的样式*/
+}
+input, select, textarea {
+	outline: none; /*outline（轮廓）是绘制于元素周围的一条线，位于边框边缘的外围，可起到突出元素的作用。*/
+	border: none;
+	background:none;
+}
+textarea {
+	resize: none; /*规定是否可由用户调整元素的尺寸*/
+}
+a {
+	text-decoration: none; /*规定添加到文本的修饰*/
+	color: #666666;
+}
+/*清除浮动*/
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.clearfix{
+	zoom:1;
+}
